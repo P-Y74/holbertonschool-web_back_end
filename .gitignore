@@ -1,0 +1,71 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.venv
+venve
+
+# === Flask / App-specific ===
+instance/
+*.db
+*.sqlite3
+*.log
+
+# === Mac / Linux system ===
+.DS_Store
+Thumbs.db
+
+# === IDEs and Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === Test and Coverage ===
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+nosetests.xml
+test-results/
+junit-*.xml
+
+# === Dependency files ===
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === Git ===
+*.orig
+*.rej
+
+# === Migrations (if using Flask-Migrate later) ===
+migrations/
+
+# === Env config ===
+.env
+.env.*
+
+# === JSON/YAML output ===
+*.json
+*.yaml
+*.yml
+.python-version
