@@ -14,7 +14,8 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
 
     Args:
         k (str): A string key.
-        v (Union[int, float]): A value to be squared, either an integer or a float.
+        v (Union[int, float]): A value to be squared, either an integer
+        or a float.
 
     Returns:
         Tuple[str, float]: A tuple where the first element is the string `k`,
