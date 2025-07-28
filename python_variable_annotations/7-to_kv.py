@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Module providing a function to create a tuple with a string key and
+the square of a numeric value (int or float) returned as a float.
+"""
+
+
 from typing import Tuple, Union
 
 
