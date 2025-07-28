@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Module that provides a function to sum a list containing integers and floats,
+returning the result as a float.
+"""
+
+
 from typing import List, Union
 
 
