@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+"""
+Module defining a higher-order function that returns a multiplier function.
+
+The returned function multiplies any given float by a preset multiplier.
+"""
+
+
 from typing import Callable
 
 
