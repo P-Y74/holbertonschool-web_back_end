@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Module defining a function to return a list of tuples pairing each
+element from an iterable of sequences with its length.
+"""
+
+
 from typing import List, Tuple, Iterable, Sequence
 
 
