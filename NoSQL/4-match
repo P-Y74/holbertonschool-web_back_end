@@ -1,0 +1,2 @@
+// Find all documents where name equals "Holberton school"
+db.school.find({ name: { $eq: 'Holberton school' } })
