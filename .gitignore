@@ -69,3 +69,5 @@ migrations/
 *.yaml
 *.yml
 .python-version
+NoSQL/dump/logs/nginx.bson
+NoSQL/dump.zip
