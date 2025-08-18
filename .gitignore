@@ -71,3 +71,9 @@ migrations/
 .python-version
 NoSQL/dump/logs/nginx.bson
 NoSQL/dump.zip
+
+ES6_basic/node_modules
+ES6_basic/.eslintrc.js
+.gitignore
+ES6_basic/babel.config.js
+ES6_basic/nodesource_setup.sh
