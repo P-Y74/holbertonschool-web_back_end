@@ -3,6 +3,6 @@ export default function getStudentsByLocation(arr = [], city) {
     return [];
   }
   else {
-    return arr.filter(student => student.location === city)
+    return arr.filter(student => student.location === city);
   }
 }
