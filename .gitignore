@@ -81,3 +81,7 @@ ES6_basic/nodesource_setup.sh
 ES6_classes/node_modules
 ES6_classes/.eslintrc.js
 ES6_classes/babel.config.js
+
+ES6_data_manipulation/node_modules
+ES6_data_manipulation/babel.config.js
+ES6_data_manipulation/.eslintrc.js
