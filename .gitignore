@@ -89,3 +89,7 @@ ES6_data_manipulation/.eslintrc.js
 ES6_promise/node_modules
 ES6_promise/.eslintrc.js
 ES6_promise/babel.config.js
+
+Node_JS_basic/node_modules
+Node_JS_basic/.eslintrc.js
+Node_JS_basic/babel.config.js
