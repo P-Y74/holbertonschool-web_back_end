@@ -13,7 +13,13 @@ const app = http.createServer(async (req, res) => {
     let output = '';
     const originalLog = console.log;
     console.log = (msg) => { output += `${msg}\n`; };
-    await countStudents(path);
+    try {
+      await countStudents(path);
+    } catch (err) {
+      console.log = originalLog;
+      res.end('This is the list of our students\nCannot load the database');
+      return;
+    }
     console.log = originalLog;
     output = output.trimEnd();
     res.end(`This is the list of our students\n${output}`);
